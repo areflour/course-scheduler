@@ -1,0 +1,19 @@
+Course Code,Course Title,Prerequisites
+CS 120M,Computer Programming Concepts,
+CS 130,Python for Biology & Life Sci,Sophomore standing
+CS 150M,Discrete Structures,
+CS 170A,Videographics,Permission of instructor
+CS 221N,Data Structures,CS 120M or equivalent
+CS 301,Theory of Computing,CS 143 and CS 150M
+CS 310,Computer Architecture,CS 143
+CS 320,Operating Systems,CS 221N
+CS 330,Analysis of Algorithms,CS 150M and CS 221N
+CS 334,Bioinformatics,CS 221N
+CS 370,Database Systems,CS 221N
+CS 375,Artificial Intelligence,CS 221N
+CS 380,Computer Graphics,CS 221N
+CS 415,Computer Networks,CS 221N
+CS 480,Machine Learning,CS 370
+CS 497,Software Capstone I,Permission of instructor
+CS 498,Software Capstone II,CS 497
+CS 499,Senior Thesis,Faculty invitation and excellence in coursework

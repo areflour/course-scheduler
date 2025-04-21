@@ -1,0 +1,73 @@
+/* App.css */
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #1e3a8a;
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #2563eb;
+  transform: scale(1.03);
+}
+
+select,
+input {
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  min-width: 180px;
+}
+
+input[readonly] {
+  background-color: #f3f4f6;
+}
+
+.scheduler-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.remove-button {
+  background: none;
+  color: #dc2626;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  text-decoration: underline;
+}
